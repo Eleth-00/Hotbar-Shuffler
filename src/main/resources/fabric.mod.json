@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "hotbar-shuffler",
+	"version": "${version}",
+	"name": "Hotbar Shuffler",
+	"description": "This mod helps add texture and variation to your builds by randomizing the placeable blocks in your hotbar, creating fun patterns that don’t look too repetitive or standardized.",
+	"authors": [
+		"Eleth"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/hotbar-shuffler/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.eleth.hotbarshuffler.HotBarShuffler"
+		],
+		"client": [
+			"com.eleth.hotbarshuffler.client.HotbarShufflerClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.1",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
